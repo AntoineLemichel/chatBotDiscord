@@ -6,8 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('pong');
+  if (msg.content === '!help') {
+    msg.reply('Voici une liste de commande (à compléter) :\
+    !html');
   }
 });
 
