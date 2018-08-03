@@ -11,7 +11,7 @@ client.on('message', msg => {
   }
   if(msg.content === '!html'){
       msg.reply('!html5 :\t Vous affiche toutes les commandes liés à HTML5.\n');
-      msg.reply("!html5-Link: \t Affiche toutes les link différent.");
+    //   msg.reply("!html5-Link: \t Affiche toutes les link différent.");
   }
 });
 
