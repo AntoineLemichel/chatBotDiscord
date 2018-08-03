@@ -21,19 +21,19 @@ client.on('message', msg => {
                    <head></head> : En tête de la page \n \
                    <body></body> : Corps de la page. C\'est ici le contenu principale de votre page. \n \
                    Tu peux également voir le code minimal d\'une page HTML5');
-                   if(msg.content === '!html5-baseMini'){
-                       msg.reply('Voici le code minimal à inclure dans votre page HTML5 : \n \
-                       <!DOCTYPE html>\
-                        <html> \
-                            <head> \
-                                <meta charset="utf-8" /> \
-                                <title>Titre</title> \
-                            </head> \
-                            <body> \
-                            </body>\
-                        </html>\
-                        ');
-                   }
+                }
+    if(msg.content === '!html5-baseMini'){
+        msg.reply('Voici le code minimal à inclure dans votre page HTML5 : \n \
+        <!DOCTYPE html>\
+        <html> \
+            <head> \
+                <meta charset="utf-8" /> \
+                <title>Titre</title> \
+            </head> \
+            <body> \
+            </body>\
+        </html>\
+        ');
     }
 });
 
