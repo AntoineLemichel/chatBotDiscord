@@ -7,8 +7,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '!help') {
-    msg.reply('Voici une liste de commande (à compléter) :\
-    !html');
+    msg.reply('Voici une liste de commande (à compléter) : \n!html \t Affiche une liste de certaines commandes HTML afin d\'affiner votre recherche.\n');
+  }
+  if(msg.content === '!html'){
+      msg.reply('!html5 :\t Vous affiche toutes les commandes liés à HTML5.\n');
+      msg.reply("!html5-Link: \t Affiche toutes les link différent.");
   }
 });
 
